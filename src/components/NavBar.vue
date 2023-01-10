@@ -5,7 +5,7 @@
         dark
         flat
         dense
-        :height="140"
+        :height="100"
         :style="{ backgroundColor: navColor }"
     >
         <div class="top">
@@ -18,14 +18,24 @@
                         "
                     />
                     <h1>
-                        <span class="hide">Avalanche Explorer</span>
+                        <span class="hide">Metal Nodes Explorer</span>
                     </h1>
                 </a>
             </div>
             <v-spacer class="spacer_mid"></v-spacer>
+            <div v-if="pricesLoaded" class="prices">
+                <div class="price_pair">
+                    <span class="label">METAL</span>
+                    <span class="value">{{ priceUSD }}</span>
+                </div>
+                <!-- <div class="price_pair">
+                    <span class="label">Market Cap</span>
+                    <span class="value">${{ marketCapUSD }}</span>
+                </div> -->
+            </div>
             <div class="links">
                 <div class="routes">
-                    <a :href="explorerFEUrl">Home</a>
+                    <!--<a :href="explorerFEUrl">Home</a>
                     <router-link to="/subnets">Subnets</router-link>
                     <router-link to="/validators">Validators</router-link>
                     <a :href="tokensURL">Tokens</a>
@@ -33,22 +43,23 @@
                     <a v-if="isMainnet" :href="statsURL">Stats</a>
                     <a :href="cChainURL">C-Chain</a>
                     <a :href="statusPageURL">Status</a>
-                    <router-link to="/resources">Resources</router-link>
+                    <router-link to="/resources">Resources</router-link>-->
                 </div>
             </div>
             <v-spacer class="spacer_mid"></v-spacer>
             <NetworkMenu />
         </div>
+        <!--
         <div class="bottom">
             <div v-if="pricesLoaded" class="prices">
                 <div class="price_pair">
-                    <span class="label">AVAX</span>
+                    <span class="label">METAL</span>
                     <span class="value">{{ priceUSD }}</span>
                 </div>
-                <!-- <div class="price_pair">
+                <div class="price_pair">
                     <span class="label">Market Cap</span>
                     <span class="value">${{ marketCapUSD }}</span>
-                </div> -->
+                </div> 
             </div>
             <v-progress-circular
                 v-else
@@ -65,7 +76,7 @@
                     @search="onsearch"
                 />
             </div>
-        </div>
+        </div>-->
     </v-app-bar>
 </template>
 

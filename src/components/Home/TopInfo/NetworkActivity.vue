@@ -1,7 +1,7 @@
 <template>
     <div id="network_statistics" class="card">
         <div class="header">
-            <h2 class="top_info_heading">Avalanche Network Activity</h2>
+            <h2 class="top_info_heading">Metal Blockchain Network Activity</h2>
         </div>
         <section class="stats one-column">
             <!-- <dl>

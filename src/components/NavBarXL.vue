@@ -17,7 +17,7 @@
                     src="@/assets/explorer_logo_black.png"
                 />
                 <h1>
-                    <span class="hide">Avalanche Explorer</span>
+                    <span class="hide">Metal Nodes Explorer</span>
                 </h1>
             </a>
         </div>

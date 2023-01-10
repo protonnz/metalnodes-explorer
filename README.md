@@ -1,10 +1,10 @@
 # DEPRECATION NOTICE
 
-This project is **deprecated**, and the Avalanche Explorer is in the process of being migrated to the [Subnet Explorer](https://subnets.avax.network/) instead. As such, some URLs will redirect to the new explorer experience as it is developed, starting with the Home page and C-Chain page.
+This project is **deprecated**, and the Metal Nodes Explorer is in the process of being migrated to the [Subnet Explorer](https://subnets.avax.network/) instead. As such, some URLs will redirect to the new explorer experience as it is developed, starting with the Home page and C-Chain page.
 
-# Avalanche Explorer
+# Metal Nodes Explorer
 
-Frontend Vue.js application for displaying Avalanche network activity and blockchains data from the [Ortelius indexer](https://github.com/ava-labs/ortelius) and [Avalanche-Go client](https://github.com/ava-labs/gecko).
+Frontend Vue.js application for displaying Metal Blockchain Network activity and blockchains data from the [Ortelius indexer](https://github.com/ava-labs/ortelius) and [Avalanche-Go client](https://github.com/ava-labs/gecko).
 
 ## Prerequisites
 
@@ -24,7 +24,7 @@ The homepage currently redirects to the subnet explorer so to view the app you'l
 
 ## Configuration
 
-See `.env`. By default, the Avalanche Explorer interfaces with the Everest test network.
+See `.env`. By default, the Metal Nodes Explorer interfaces with the Everest test network.
 
 For local development against ortelius and avalanche go, use the docker container setup by the ortelius team. Info can be
 found [here](https://github.com/ava-labs/ortelius#quick-start-with-standalone-mode). You can also connect to a local network you setup yourself, install and run

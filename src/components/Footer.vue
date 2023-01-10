@@ -4,10 +4,10 @@
             <div class="powered_by">
                 <div class="header">
                     <img :src="img" />
-                    <h4>Avalanche Explorer</h4>
+                    <h4>Metal Nodes Explorer</h4>
                 </div>
                 <p class="avalanche_desc">
-                    Avalanche Explorer is an analytics tool that enables people
+                    Metal Nodes Explorer is an analytics tool that enables people
                     to search the Avalanche blockchain for transactions,
                     addresses, and other platform activities.
                 </p>

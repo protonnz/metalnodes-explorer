@@ -1,4 +1,4 @@
-<template>
+<!--<template>
     <div>
         <template v-if="networkID === 1">
             <v-alert
@@ -24,7 +24,7 @@
         </template>
     </div>
 </template>
-
+-->
 <script lang="ts">
 import 'reflect-metadata'
 import { Vue, Component } from 'vue-property-decorator'
